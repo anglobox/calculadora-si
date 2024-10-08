@@ -1,3 +1,4 @@
+import comprimento
 def main():
     """
     Função principal do programa.
@@ -24,13 +25,15 @@ def main():
 
         if escolha == "1":
             metros = float(input("Digite o valor em metros: "))
-            quilometros = None
+            quilometros = comprimento.metro_km(metros)
             print(f"{metros} metros são {quilometros} quilômetros.")
+            break
             
         elif escolha == "2":
             quilometros = float(input("Digite o valor em quilômetros: "))
-            metros = None
+            metros = comprimento.km_metro (quilometros)
             print(f"{quilometros} quilômetros são {metros} metros.")
+            break
 
         elif escolha == "3":
             gramas = float(input("Digite o valor em gramas: "))
