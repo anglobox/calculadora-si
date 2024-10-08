@@ -14,8 +14,6 @@ def main():
         print("4. Massa (kg para g)")
         print("5. Volume (l para ml)")
         print("6. Volume (ml para l)")
-        print("7. Velocidade (km/h para m/s)")
-        print("8. Velocidade (m/s para km/h)")
         print("0. Sair")
 
         escolha = input("Digite sua escolha: ")
